@@ -6,11 +6,11 @@ import * as auth0 from 'auth0-js';
 export class AuthService {
 
   auth0 = new auth0.WebAuth({
-    clientID: 'IEqK16P98ehU73tAr5OG5ECV8ttbDQQ6',
+    clientID: 'uEA5xpHN6h4tu8yxSx81AsZJSfiUYqTk',
     domain: 'ragukumarganesan.eu.auth0.com',
     responseType: 'token id_token',
-    audience: 'http://localhost:8080',
-    redirectUri: 'http://localhost:4200/callback',
+    audience: 'https://bikesurvey.herokuapp.com',
+    redirectUri: 'https://bikesurvey.herokuapp.com/callback',
     scope: 'openid view:registration view:registrations delete'
   });
 
