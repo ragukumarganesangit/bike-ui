@@ -23,14 +23,15 @@
     "auth0-js": "^9.13.2",
     "bootstrap": "^4.0.0-beta.2",
     "cors": "^2.8.5",
+    "express": "*",
     "express-http-proxy": "^1.6.0",
     "jquery": "^1.9.1",
     "popper.js": "^1.16.1",
     "port": "^0.8.1",
+    "routes": "^2.1.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "express":"*"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",
