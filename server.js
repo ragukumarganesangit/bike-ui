@@ -32,6 +32,7 @@ const port = process.env.PORT || '4200';
 app.set('port', port);
 
 const routes=require('./routes/api.tsx')
+app.set('route',routes)
 /**
  * Create HTTP server.
  */
