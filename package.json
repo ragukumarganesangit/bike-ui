@@ -25,7 +25,7 @@
     "cors": "^2.8.5",
     "express": "*",
     "express-http-proxy": "^1.6.0",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.16.1",
     "port": "^0.8.1",
     "routes": "^2.1.0",
