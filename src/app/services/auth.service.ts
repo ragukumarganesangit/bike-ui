@@ -10,7 +10,7 @@ export class AuthService {
     domain: 'ragukumarganesan.eu.auth0.com',
     responseType: 'token id_token',
     audience: 'https://bikesurvey.herokuapp.com',
-    redirectUri: 'https://bikesurveyweb.herokuapp.com/callback',
+    redirectUri: 'https://bikesurveryweb.herokuapp.com/callback',
     scope: 'openid view:registration view:registrations delete'
   });
 
